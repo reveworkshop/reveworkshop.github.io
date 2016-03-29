@@ -1,119 +1,552 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0031)./ -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>REVE 2016</title>
-<link rel="StyleSheet" href="./files/web.css" type="text/css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>REVE 2016</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
+  .jumbotron {
+      background-color: #511EF4; /* #f4511e; */
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  .container-fluid {
+      padding: 60px 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #511EF4;
+      font-size: 50px;
+  }
+  .logo {
+      color: #511EF4;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #511EF4;
+  }
+  .carousel-indicators li {
+      border-color: #511EF4;
+  }
+  .carousel-indicators li.active {
+      background-color: #511EF4;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #511EF4; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #511EF4;
+      background-color: #fff !important;
+      color: #511EF4;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #511EF4 !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #511EF4;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color: #511EF4;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 1px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #511EF4 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #511EF4;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  </style>
 </head>
- 
-<body>
-<div id="maincontainer" class="end">
+<body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<div id="topsection" class="mygradient">
-	<img src="./files/reveLogo.png" alt="Reverse Variability Engineering">
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#mainPage">REVE 2016</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">Intro</a></li>
+		<li><a href="#dates">Dates</a></li>
+		<li><a href="#topics">Topics</a></li>
+		<li><a href="#submission">Submission</a></li>
+        <li><a href="#committee">Committee</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#program">Program</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<div class="end">
-
-<div id="contentwrapper">
-<div id="contentcolumn">
-<div class="innertube">
-
-<h3>REVE 2016 - 4th International workshop on Reverse Variability Engineering</h3>
+<div class="jumbotron text-center">
+<h1>REVE 2016<h1>
+<h3>4th International Workshop on Reverse Variability Engineering</h3>
 <i>held in conjunction with SPLC2016 - 20th International Software Product Line Conference</i>
 <h3>19 or 20 September 2016, Beijing, China</h3>
-<!--<h3>9:00 to 12:30</h3>-->
-Time: TBD<br>
-Location: <a href="http://www.bjfriendshiphotel.com/siteen/index.html" target="_new">Beijing Friendship Hotel</a><!--, Room: TBD--><br>
-<br>
-<!--<h3><a href="./reve2013_proceedings.pdf" target="_new"><img src="./files/download.png"><img src="./files/pdf.gif"> &gt;&gt;&gt; Download REVE 2013 Proceedings</a></h3>-->
-<!--<h1>extended to June 11</h1>-->
-<br>
-<a href="mailto:?subject=Reverse%20Variability%20Engineering%20Workshop%20-%20REVE%202016,%2019%20September,%20Beijing,%20China&body=Hello,%20I%20think%20that%20this%20workshop%20could%20be%20of%20your%20interest:%20http://reveworkshop.github.io" target="_new"><img src="./files/comment.gif"> Share this workshop</a>
-<br>
-<h3>Introduction</h3>
-<p>
-Software Product Line (SPL) migration remains a challenging endeavour.</br>
+</div>
+
+<div id="intro" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-7">
+	<h4><span class="label label-warning">NEW</span> REVE 2016 is open for submissions</h4>
+	<h4><span class="label label-primary">.txt</span> <a href="./files/cfp.txt" target="_new"><span class="glyphicon glyphicon-save"></span>Call for Papers in plain text format</a> </h4>
+<h2>Introduction</h2>
+<h4>Software Product Line (SPL) migration remains a challenging endeavour</h4>
 From organizational issues to purely technical challenges, there is a wide range of barriers that complicates
 SPL adoption.<br> This workshop aims to foster research about
 making the most of the two main inputs for SPL migration:<br>
 1) domain knowledge and 2) legacy assets.<br>Domain knowledge, usually implicit and spread across an organization, is key to define the SPL scope and to validate the variability
 model and its semantics.<br> At the technical level, domain expertise is also needed to create or extract the reusable software components.<br> Legacy assets can be, for instance, similar product variants (e.g. requirements, models, source code etc.) that were implemented using ad-hoc reuse
-techniques such as clone-and-own.<br> More generally, the workshop REverse Variability Engineering (REVE) attracts researchers and practitioners contributing to<br> processes, techniques, tools, or empirical studies related to the automatic, semi-automatic or manual extraction or refinement of SPL assets.<br>
+techniques such as clone-and-own.<br> More generally, the workshop REverse Variability Engineering (REVE) attracts researchers and practitioners contributing to<br>
+<h4>processes, techniques, tools, or empirical studies related to the automatic, semi-automatic or manual extraction or refinement of SPL assets.</h4><br>
+    </div>
+	<div class="col-sm-3">
+Held in conjunction with</br>
+<a href="http://www.splc2016.net/" target="_new"><img src="./files/splcLogo.png" alt="SPLC 2016"></a></br></br>
+Workshop organized by</br>
+<a href="http://www.jku.at/" target="_new"><img src="./files/jkuLogo.jpg"></a>
+<a href="http://www.lip6.fr/" target="_new"><img src="./files/cnrsLogo.jpg"></a>
+</br>
+<a href="http://www.uni.lu/snt" target="_new"><img src="./files/sntLogo.jpg"></a>
+<a href="http://www.irisa.fr/" target="_new"><img src="./files/irisaLogo.jpg"></a>
+	</div>
+  </div>
+</div>
+
+<div id="dates" class="container-fluid bg-grey">
+<div class="row">
+<div class="col-sm-2"></div>
+    <div class="col-sm-8">
+	<h2>Important dates</h2>
+     <p>
+<!--<b>Paper submissions:</b> <b><strike>Friday, January 11</strike></b> <img src="./files/accept.gif" alt="Closed">-->
+Paper submissions: May 15, 2016</br>
+Paper notifications: June 15, 2016</br>
+Final version of papers: June 28, 2016</br>
+REVE 2016 Workshop: 19 or 20 September 2016</br>
+SPLC 2016 Conference: 19-23 September 2016</br>
 </p>
-<!--
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+
+<div id="topics" class="container-fluid">
+  <div class="row">
+  <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Topics</h2>
 <p>
-<b>Goals</b>
+We will encourage submissions that push the state of the art and practice in the following topics (but not limited to):
 </p><ul>
 <li>
-To provide a meeting point for researchers and practitioners in reverse engineering for variability.
+Experience reports on SPL migration
 </li>
 <li>
-To review and formulate a research agenda in reverse engineering for variability.
+Organizational issues on SPL migration
 </li>
 <li>
-To identify and gather a corpus of case studies and benchmarks to benefit the research and practitioner community.
+Static, dynamic or information retrieval techniques for legacy assets analysis
 </li>
-<ul>
+<li>
+Feature identification and location techniques
+</li>
+<li>
+Feature constraints discovery
+</li>
+<li>
+Feature model synthesis
+</li>
+<li>
+Extraction of reusable components
+</li>
+<li>
+Clone detection techniques
+</li>
+<li>
+Visualisation techniques during SPL migration
+</li>
+<li>
+Product Line Architecture reengineering
+</li>
+<li>
+Refactoring theories and techniques for SPLE
+</li>
+<li>
+Tacit knowledge and collaboration in SPL migration
+</li>
+<li>
+Mining variability from software repositories
+</li>
+<li>
+Literature reviews on reverse engineering in SPLE
+</li>
+<li>
+Metrics and measurements for SPL migration
+</li>
+<li>
+Case studies and benchmark examples
+</li>
+<li>
+Industrial experiences of SPL migration
+</li>
+<li>
+Tool support for SPL migration
+</li>
+</ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div id="submission" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Submission details</h2>
 <p></p>
-</ul></ul>--></div>
-</div>
-</div>
-
-<div id="leftcolumn">
-<div class="innertube">
-<a href="./index.html"><img src="./files/index.gif"><b> Home</b></a>
-<br>
-<a href="./cfp.html"><img src="./files/cfp.gif"> Call for papers</a>
-<br>
-<a href="./topics.html"><img src="./files/topics.gif"> Topics</a>
-<br>
-<a href="./dates.html"><img src="./files/dates.gif"> Important dates</a>
-<br>
-<a href="./submissions.html"><img src="./files/submissions.gif"> Submission details</a>
-<br>
-<a href="./program.html"><img src="./files/program.gif"> Workshop program</a>
-<br>
-<a href="./tpc.html"><img src="./files/tpc.gif"> Program Committee</a>
-<br>
-<a href="./organizers.html"><img src="./files/organizers.gif"> Organizers</a>
 <p>
-Held in conjunction with
-<a href="http://www.splc2016.net/" target="_new"><img src="./files/splcLogo.png" alt="SPLC 2015"></a>
+<b>Submission types:</b> Authors interested in participating in the workshop are requested to submit either:
 </p>
 <p>
-Organized by
+</p><ul>
+<li>
+Regular paper (max. 8 pages) that presents original research or industrial experience report
+</li>
+<li>
+Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
+</li>
+</ul>
+<p></p>
+<p>
+<b>Format:</b> Submissions should use the ACM SIG proceedings format.
+<br>Templates for Word and LaTeX are available at <a href="http://www.acm.org/publications/article-templates/proceedings-template.html/" target="_new">http://www.acm.org/publications/article-templates/proceedings-template.html/</a>
+</p>
+<p>
+<b>Submission:</b> All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. Papers should be submitted via <a href="http://www.easychair.org/conferences/?conf=reve2016" target="_new">http://www.easychair.org/conferences/?conf=reve2016</a>
+</p>
+<p>
+</p>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="committee" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Technical Program Committee</h2>
+<ul>
+<li>
+Anil Kumar Thurimella, Harman Becker Automative Systems GmbH, Munich, Germany
+</li>
+<li>
+Danilo Beuche, Pure Systems, Germany
+</li>
+<li>
+Jens Krinke, University College London, UK
+</li>
+<li>
+Julia Rubin, MIT, USA
+</li>
+<li>
+Oscar Díaz, University of the Basque Country, Spain
+</li>
+<li>
+Gilles Malfreyt, Thales, France
+</li>
+<li>
+Øystein Haugen, Østfold University College, Norway
+</li>
+<li>
+Jennifer Pérez Benedí, Universidad Politécnica de Madrid, Spain
+</li>
+<li>
+Jason Mansell, Tecnalia, Spain
+</li>
+<li>
+Kentaro Yoshimura, Hitachi, Japan
+</li>
+<li>
+Angela Lozano, Vrije Universiteit Brussel, Belgium
+</li>
+</ul>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="organizers" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Organizers</h2>
+<ul>
+<li>
+Roberto E. Lopez-Herrejon, Johannes Kepler University, Linz, Austria, <br>(Main Contact) <a href="mailto:roberto.lopez@jku.at?subject=REVE%202014" target="_new"><span class="glyphicon glyphicon-envelope"></span></a><br>
+</li>
+<li>
+Tewfik Ziadi, UMR CNRS, LIP6-MoVe, Paris, France
+</li>
+<li>
+Jabier Martinez, University of Luxembourg, SNT, Luxembourg, Luxembourg
+</li>
+<li>
+Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France
+</li>
+</ul>
+<p></p>
 <a href="http://www.jku.at/" target="_new"><img src="./files/jkuLogo.jpg"></a>
-<br>
 <a href="http://www.lip6.fr/" target="_new"><img src="./files/cnrsLogo.jpg"></a>
-<br>
 <a href="http://www.uni.lu/snt" target="_new"><img src="./files/sntLogo.jpg"></a>
-<br>
 <a href="http://www.irisa.fr/" target="_new"><img src="./files/irisaLogo.jpg"></a>
-</p>
-
-<p>
-Previous workshops<br>
-<a href="http://www.sea.jku.at/reve2015" target="_new">REVE 2015</a>
-<br>
-<a href="http://www.sea.jku.at/reve2014" target="_new">REVE 2014</a>
-<br>
-<a href="http://www.sea.jku.at/reve2013" target="_new">REVE 2013</a>
-<br>
-</p>
-</div>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
 </div>
 
-</div>
+<div id="location" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Location</h2>
 
-<div id="footer">
-</div>
-
+<!--<h3>9:00 to 12:30</h3>-->
+Location: <a href="http://www.bjfriendshiphotel.com/siteen/index.html" target="_new">Beijing Friendship Hotel</a><!--, Room: TBD--></br></br>
+<div id="googleMap" style="height:400px;width:100%;"></div>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
 </div>
 
 
- 
- 
- 
+<div id="program" class="container-fluid  bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Workshop program</h2>
+To be announced
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
 
-</body></html>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(39.964103, 116.321157);
+
+function initialize() {
+var mapProp = {
+  center:myCenter,
+  zoom:15,
+  scrollwheel:false,
+  draggable:false,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position:myCenter,
+  });
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<footer class="container-fluid text-center">
+  Previous editions:&nbsp;
+<a href="http://www.sea.jku.at/reve2013" target="_new">2013</a>
+&nbsp;
+<a href="http://www.sea.jku.at/reve2014" target="_new">2014</a>
+&nbsp;
+<a href="http://www.sea.jku.at/reve2015" target="_new">2015</a>
+</br>
+REVE workshop 2016
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#mainPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
