@@ -3,7 +3,7 @@ Call for Papers
 REVE 2016
 4th International workshop on Reverse Variability Engineering
 held in conjunction with SPLC2016 - 20th International Software Product Line Conference
-September 19 or 20, 2016
+September 19, 2016
 Beijing, China
 http://reveworkshop.github.io
 
@@ -44,7 +44,7 @@ Important dates
 Paper submissions: May 15, 2016
 Paper notifications: June 15, 2016
 Final version of papers: June 28, 2016
-REVE 2016 Workshop: 19 or 20 September 2016
+REVE 2016 Workshop: 19 September 2016
 SPLC 2016 Conference: 19-23 September 2016
 
 Submission details
