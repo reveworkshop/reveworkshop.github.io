@@ -1,10 +1,10 @@
 Call for Papers
 
-REVE 2016
-4th International workshop on Reverse Variability Engineering
-held in conjunction with SPLC2016 - 20th International Software Product Line Conference
-September 19, 2016
-Beijing, China
+REVE 2017
+5th International workshop on Reverse Variability Engineering
+held in conjunction with SPLC2017 - 21st International Software Product Line Conference
+25 or 26 September 2017
+Seville, Spain
 http://reveworkshop.github.io
 
 Introduction
@@ -41,38 +41,40 @@ We will encourage submissions that push the state of the art and practice in the
 
 Important dates
 *******************************
-Paper submissions: May 15, 2016
-Paper notifications: June 15, 2016
-Final version of papers: June 28, 2016
-REVE 2016 Workshop: 19 September 2016
-SPLC 2016 Conference: 19-23 September 2016
+Paper submissions: May 24, 2017
+Paper notifications: June 14, 2017
+Final version of papers: June 22, 2017
+REVE 2017 Workshop: 25 or 26 September 2017. To be defined soon.
+SPLC 2017 Conference: 25-29 September 2017
 
 Submission details
 *******************************
+REVE proceedings will be included in SPLC proceedings (Volume 2)
 Submission types: Authors interested in participating in the workshop are requested to submit either:
 - Regular paper (max. 8 pages) that presents original research or industrial experience report
 - Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
-Format: Submissions should use the ACM SIG proceedings format.
-Submission: All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. Papers should be submitted via http://www.easychair.org/conferences/?conf=reve2016
-REVE organizers are also promoting a post-workshop special issue about Reverse Variability Engineering. More news soon.
+Format: Submissions should use the ACM SIG proceedings format in the same way as for the SPLC conference proceedings. Templates for Word and LaTeX are available at https://www.acm.org/publications/proceedings-template
+Submission: All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. Papers should be submitted via http://www.easychair.org/conferences/?conf=reve2017
 
 Organizers
 *******************************
-- Roberto E. Lopez-Herrejon, Johannes Kepler University, Linz, Austria, (Main Contact) roberto.lopez@jku.at
-- Tewfik Ziadi, UMR CNRS, LIP6-MoVe, Paris, France
-- Jabier Martinez, University of Luxembourg, SnT, Luxembourg
+- Jabier Martinez, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France (Main Contact) jabier.martinez@lip6.fr
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada 
+- Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France 
 - Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France
 
 Technical Program Committee
 *******************************
-- Anil Kumar Thurimella, Harman Becker Automative Systems GmbH, Munich, Germany
-- Danilo Beuche, Pure Systems, Germany
-- Jens Krinke, University College London, UK
-- Julia Rubin, MIT, USA
-- Oscar Díaz, University of the Basque Country, Spain
+- Carlos Cetina, Universidad San Jorge, Zaragoza, Spain
 - Gilles Malfreyt, Thales, France
-- Øystein Haugen, Østfold University College, Norway
-- Jennifer Pérez Benedí, Universidad Politécnica de Madrid, Spain
+- Jacques Robin, Université Paris 1 Panthéon-Sorbonne, France
 - Jason Mansell, Tecnalia, Spain
+- Jens Krinke, University College London, UK
+- José Galindo, Universidad de Sevilla, Spain
+- Julia Rubin, The University of British Columbia, Canada
 - Kentaro Yoshimura, Hitachi, Japan
-- Angela Lozano, Vrije Universiteit Brussel, Belgium
+- Klaus Schmid, University of Hildesheim, Germany
+- Oscar Díaz, University of the Basque Country, Spain
+- Øystein Haugen, Østfold University College, Norway
+- Sandro Schulze, Otto von Guericke University Magdeburg, Germany
+- Sebastian Herold, Karlstad University, Sweden
