@@ -59,22 +59,23 @@ Submission: All papers submitted to the workshop must be unpublished original wo
 Organizers
 *******************************
 - Jabier Martinez, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France (Main Contact) jabier.martinez@lip6.fr
-- Roberto E. Lopez-Herrejon, Ecole de technologie superieurÃ©, Montreal, Canada 
-- Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France 
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada
+- Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France
 - Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France
 
 Technical Program Committee
 *******************************
 - Carlos Cetina, Universidad San Jorge, Zaragoza, Spain
+- Danilo Beuche, Pure Systems, Germany
 - Gilles Malfreyt, Thales, France
-- Jacques Robin, UniversitÃ© Paris 1 PanthÃ©on-Sorbonne, France
+- Jacques Robin, Université Paris 1 Panthéon-Sorbonne, France
 - Jason Mansell, Tecnalia, Spain
 - Jens Krinke, University College London, UK
-- JosÃ© Galindo, Universidad de Sevilla, Spain
+- José Galindo, Universidad de Sevilla, Spain
 - Julia Rubin, The University of British Columbia, Canada
 - Kentaro Yoshimura, Hitachi, Japan
 - Klaus Schmid, University of Hildesheim, Germany
-- Oscar DÃ­az, University of the Basque Country, Spain
-- Ã˜ystein Haugen, Ã˜stfold University College, Norway
+- Oscar Díaz, University of the Basque Country, Spain
+- Øystein Haugen, Østfold University College, Norway
 - Sandro Schulze, Otto von Guericke University Magdeburg, Germany
 - Sebastian Herold, Karlstad University, Sweden
