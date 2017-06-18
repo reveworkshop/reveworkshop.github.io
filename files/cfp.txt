@@ -3,7 +3,7 @@ Call for Papers
 REVE 2017
 5th International workshop on Reverse Variability Engineering
 held in conjunction with SPLC2017 - 21st International Software Product Line Conference
-25 or 26 September 2017
+26 September 2017
 Seville, Spain
 http://reveworkshop.github.io
 
@@ -44,7 +44,7 @@ Important dates
 Paper submissions: May 24, 2017
 Paper notifications: June 14, 2017
 Final version of papers: June 22, 2017
-REVE 2017 Workshop: 25 or 26 September 2017. To be defined soon.
+REVE 2017 Workshop: 26 September 2017
 SPLC 2017 Conference: 25-29 September 2017
 
 Submission details
