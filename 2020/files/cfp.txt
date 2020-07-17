@@ -83,3 +83,4 @@ Technical Program Committee
 - Oscar Diaz, University of the Basque Country, Spain
 - Oystein Haugen, Østfold University College, Norway
 - Sebastian Herold, Karlstad University, Department of Computer Science, Sweden
+- Serge Demeyer, University of Antwerp, Belgium
