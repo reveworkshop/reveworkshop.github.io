@@ -50,23 +50,23 @@ Submission types: Authors interested in participating in the workshop are reques
 
 Format: Submissions must follow the latest ACM Master Article Template.
 Templates for Word and LaTeX are available at https://www.acm.org/publications/proceedings-template
-Latex users are indicated to use the “sigconf” option, so they are recommended to use the template that can be found in "sample-sigconf.tex".
+Latex users are indicated to use the ï¿½sigconfï¿½ option, so they are recommended to use the template that can be found in "sample-sigconf.tex".
 In this way, the following latex code can be placed at the start of the latex document:
 \documentclass[sigconf]{acmart}
-\acmConference[SPLC’21]{25th ACM International Systems and Software Product Lines Conference}{06–11 September, 2021}{Leicester, UK}
+\acmConference[SPLC-21]{25th ACM International Systems and Software Product Lines Conference}{06-11 September, 2021}{Leicester, UK}
 
 Submission: All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. At least one author should register and present the paper during the workshop.
 Papers should be submitted via https://easychair.org/conferences/?conf=splc2021.
 
 Organizers
 *******************************
-- Wesley K. G. Assunçao, Federal University of Technology - Paraná (UTFPR), Brazil
-- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada 
-- Tewfik Ziadi, Sorbonne Université, CNRS, LIP6, France
+- Wesley K. G. AssunÃ§ao, Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Brazil
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieurÃ©, Montreal, Canada 
+- Tewfik Ziadi, Sorbonne UniversitÃ©, CNRS, LIP6, France
 - Jabier Martinez, Tecnalia, Spain
 
 Steering Committee
-- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada 
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieurÃ©, Montreal, Canada 
 - Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France 
 - Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France 
 - Jabier Martinez, Tecnalia, Spain
