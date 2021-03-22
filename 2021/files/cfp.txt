@@ -1,0 +1,76 @@
+REVE 2021 - 9th International workshop on Reverse Variability Engineering
+held in conjunction with SPLC2021 - 25 International Software Product Line Conference
+(ONLINE) Leicester, UK, September, 2021
+http://reveworkshop.github.io/2021
+
+Introduction
+*******************************
+Software Product Line migration remains a challenging endeavour. From organizational issues to purely technical challenges, there is a wide range of barriers that complicates SPL adoption. This workshop aims to foster research about making the most of the two main inputs for SPL migration: 1) domain knowledge and 2) legacy assets. Domain knowledge, usually implicit and spread across an organization, is key to define the SPL scope and to validate the variability model and its semantics. At technical level, domain expertise is also needed to create or extract the reusable software components. For their part, legacy assets use to be, for instance, similar product variants (e.g. requirements, models, source code etc.) that were implemented using ad-hoc reuse techniques such as clone-and-own. Bottom-up approaches to automatically extract variability management related artifacts could be proposed, applied, validated and improved in this domain. Therefore, REverse Variability Engineering (REVE) focus on automatic, semi-automatic or manual processes for the extraction or refinement of SPL assets.
+
+Goals
+*******************************
+- To provide a meeting point for researchers and practitioners in the area
+- To review and formulate a research agenda in reverse engineering for variability
+- To identify and gather a corpus of case studies and benchmarks to benefit the research and practitioner community
+
+Workshop Topics
+*******************************
+We will encourage submissions that push the state of the art and practice in the following topics (but not limited to):
+  - Experience reports on SPL migration
+ - Organizational issues on SPL migration
+  - Static, dynamic or information retrieval techniques for legacy assets analysis
+  - Feature identification and location techniques
+  - Feature constraints discovery
+  - Feature model synthesis
+  - Extraction of reusable components
+  - Clone detection techniques
+  - Visualisation techniques during SPL migration
+  - Product Line Architecture reengineering
+  - Refactoring theories and techniques for SPLE
+  - Tacit knowledge and collaboration in SPL migration
+  - Mining variability from software repositories
+  - Literature reviews on reverse engineering in SPLE
+  - Metrics and measurements for SPL migration
+  - Industrial experiences of SPL migration
+  - Tool support for SPL migration
+
+Important dates
+*******************************
+Paper submissions: June 11, 2021
+Paper notifications: June 25, 2021
+Final version of papers: July 9, 2021
+REVE 2021 Workshop: 6 or 7 September 2021
+SPLC 2021 Conference: 6-11 September 2021
+
+Submission details
+*******************************
+Submission types: Authors interested in participating in the workshop are requested to submit either:
+- Regular paper (max. 8 pages) that presents original research or industrial experience report
+- Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
+
+Format: Submissions must follow the latest ACM Master Article Template.
+Templates for Word and LaTeX are available at https://www.acm.org/publications/proceedings-template
+Latex users are indicated to use the “sigconf” option, so they are recommended to use the template that can be found in "sample-sigconf.tex".
+In this way, the following latex code can be placed at the start of the latex document:
+\documentclass[sigconf]{acmart}
+\acmConference[SPLC’21]{25th ACM International Systems and Software Product Lines Conference}{06–11 September, 2021}{Leicester, UK}
+
+Submission: All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. At least one author should register and present the paper during the workshop.
+Papers should be submitted via https://easychair.org/conferences/?conf=splc2021.
+
+Organizers
+*******************************
+- Wesley K. G. Assunçao, Federal University of Technology - Paraná (UTFPR), Brazil
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada 
+- Tewfik Ziadi, Sorbonne Université, CNRS, LIP6, France
+- Jabier Martinez, Tecnalia, Spain
+
+Steering Committee
+- Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada 
+- Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France 
+- Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France 
+- Jabier Martinez, Tecnalia, Spain
+
+Technical Program Committee
+*******************************
+To be announced soon
