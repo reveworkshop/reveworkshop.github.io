@@ -50,7 +50,7 @@ Submission types: Authors interested in participating in the workshop are reques
 
 Format: Submissions must follow the latest ACM Master Article Template.
 Templates for Word and LaTeX are available at https://www.acm.org/publications/proceedings-template
-Latex users are indicated to use the �sigconf� option, so they are recommended to use the template that can be found in "sample-sigconf.tex".
+Latex users are indicated to use the sigconf option, so they are recommended to use the template that can be found in "sample-sigconf.tex".
 In this way, the following latex code can be placed at the start of the latex document:
 \documentclass[sigconf]{acmart}
 \acmConference[SPLC-21]{25th ACM International Systems and Software Product Lines Conference}{06-11 September, 2021}{Leicester, UK}
@@ -73,4 +73,15 @@ Steering Committee
 
 Technical Program Committee
 *******************************
-To be announced soon
+Barbara Gallina, Mälardalen University, Sweden
+Djamel Eddine Khelladi, DIVERSE Team, IRISA-INRIA, CNRS, Université Rennes 1, France
+Eduardo Figueiredo, Federal University of Minas Gerais, Brazil
+Jaime Font, University San Jorge, Spain
+Jennifer Perez, Universidad Politécnica de Madrid, Spain
+José Galindo, University of Sevilla, Spain
+Julio Ariel Hurtado Garcia, Universida del Cauca, Colombia
+Marianne Huchard, LIRMM, Université de Montpellier and CNRS, France
+Mathieu Acher, Univ Rennes, Inria, CNRS, IRISA, France
+Oscar Diaz, University of the Basque Country, Spain
+Serge Demeyer, Universiteit Antwerpen (ANSYMO), Belgium
+Sten Grüner, ABB Corporate Research, Germany
