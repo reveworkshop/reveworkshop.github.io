@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>REVE 2022</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="./files/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body id="mainPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#mainPage">REVE 2022</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#intro">Intro</a></li>
+		<li><a href="#dates">Dates</a></li>
+		<li><a href="#topics">Topics</a></li>
+		<li><a href="#submission">Submission</a></li>
+        <li><a href="#committee">Committee</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#program">Program</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+<h1>REVE 2022<h1>
+<h3>10th International Workshop on Reverse Variability Engineering</h3>
+<h3>12 or 13 September 2022, Graz, Austria</h3>
+<i>held in conjunction with SPLC2022 - 26th International Software Product Line Conference - September 12-16 2022</i>
+</div>
+
+<div id="intro" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-7">
+<h2>Introduction</h2>
+
+<h4>Software Product Line (SPL) migration remains a challenging endeavour</h4>
+From organizational issues to purely technical challenges, there is a wide range of barriers that complicates
+SPL adoption.<br> This workshop aims to foster research about
+making the most of the two main inputs for SPL migration:<br>
+1) domain knowledge and 2) legacy assets.<br>Domain knowledge, usually implicit and spread across an organization, is key to define the SPL scope and to validate the variability
+model and its semantics.<br> At the technical level, domain expertise is also needed to create or extract the reusable software components.<br> Legacy assets can be, for instance, similar product variants (e.g. requirements, models, source code etc.) that were implemented using ad-hoc reuse
+techniques such as clone-and-own.<br> More generally, the workshop REverse Variability Engineering (REVE) attracts researchers and practitioners contributing to<br>
+<h4>processes, techniques, tools, or empirical studies related to the automatic, semi-automatic or manual extraction or refinement of SPL assets.</h4><br>
+    </div>
+	<div class="col-sm-3">
+Held in conjunction with</br>
+<a href="https://2022.splc.net/" target="_new"><img src="./files/splcLogo.png" alt="SPLC 2022"></a></br></br>
+Workshop organized by</br>
+<a href="https://www.etsmtl.ca/" target="_new"><img src="./files/logo1.jpg"></a>
+</br>
+<a href="https://www.jku.at" target="_new"><img src="./files/logo2.png"></a>
+</br>
+<a href="http://www.puc-rio.br/english/" target="_new"><img src="./files/logo3.jpg"></a>
+</br>
+<a href="http://www.lip6.fr/" target="_new"><img src="./files/logo4.jpg"></a>
+</br>
+<a href="http://www.tecnalia.com/" target="_new"><img src="./files/logo5.png"></a>
+	</div>
+  </div>
+</div>
+
+<div id="dates" class="container-fluid bg-grey">
+<div class="row">
+<div class="col-sm-2"></div>
+    <div class="col-sm-8">
+	<h2>Important dates</h2>
+     <p>
+Paper submissions: June 14, 2022<br/>
+Paper notifications: July 1, 2022<br/>
+Final version of papers: July 7, 2022<br/>
+REVE 2022 Workshop: 12 or 13 September 2022. To be defined soon<br/>
+SPLC 2022 Conference:12-16, September 2022<br/>
+</p>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+
+<div id="topics" class="container-fluid">
+  <div class="row">
+  <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Topics</h2>
+<p>
+We will encourage submissions that push the state of the art and practice in the following topics (but not limited to):
+</p><ul>
+<li>
+Experience reports on SPL migration
+</li>
+<li>
+Organizational issues on SPL migration
+</li>
+<li>
+Static, dynamic or information retrieval techniques for legacy assets analysis
+</li>
+<li>
+Feature identification and location techniques
+</li>
+<li>
+Feature constraints discovery
+</li>
+<li>
+Feature model synthesis
+</li>
+<li>
+Extraction of reusable components
+</li>
+<li>
+Clone detection techniques
+</li>
+<li>
+Visualisation techniques during SPL migration
+</li>
+<li>
+Product Line Architecture reengineering
+</li>
+<li>
+Refactoring theories and techniques for SPLE
+</li>
+<li>
+Tacit knowledge and collaboration in SPL migration
+</li>
+<li>
+Mining variability from software repositories
+</li>
+<li>
+Literature reviews on reverse engineering in SPLE
+</li>
+<li>
+Metrics and measurements for SPL migration
+</li>
+<li>
+Case studies and benchmark examples
+</li>
+<li>
+Industrial experiences of SPL migration
+</li>
+<li>
+Tool support for SPL migration
+</li>
+</ul>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div id="submission" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Submission details</h2>
+<p></p>
+<p>REVE proceedings will be included in SPLC proceedings (Volume 2)</p>
+<p>
+<b>Submission types:</b> Authors interested in participating in the workshop are requested to submit either:
+</p>
+<p>
+</p><ul>
+<li>
+Regular paper (max. 8 pages) that presents original research or industrial experience report
+</li>
+<li>
+Short paper (4 pages) that describes sound new ideas and concepts that are under research or experimental studies at industrial settings.
+</li>
+</ul>
+<p></p>
+<p>
+<b>Format:</b> Submissions must adhere to the latest ACM Master Article Template.
+<br>Templates for Word and LaTeX are available at <a href="https://www.acm.org/publications/proceedings-template" target="_new">https://www.acm.org/publications/proceedings-template</a>
+<br>Latex users are indicated to use the “sigconf” option, so they are recommended to use the template that can be found in "sample-sigconf.tex". 
+<br>In this way, the following latex code can be placed at the start of the latex document:
+<br>\documentclass[sigconf]{acmart}	
+<br>\acmConference[SPLC’22]{26th ACM International Systems and Software Product Lines Conference}{12-16 September, 2022}{Graz, Austria}
+</p>
+<p>
+<b>Submission:</b> All papers submitted to the workshop must be unpublished original work and must not have been submitted anywhere else for publication. Each paper will be reviewed by three PC members and accepted papers will be selected based on quality, novelty, and relevance to the workshop topic. At least one author should register and present the paper during the workshop.
+<br/>Papers should be submitted via <a href="https://easychair.org/my/conference?conf=splc2022" target="_new">https://easychair.org/conferences/?conf=splc2022</a>. 
+</p>
+<p>
+</p>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="committee" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Technical Program Committee</h2>
+<ul>
+<li>To be announced</li>
+</ul>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="organizers" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Organizers</h2>
+<ul>
+<li>
+Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada <a href="https://www.etsmtl.ca/recherche/professeurs-chercheurs/rlopez/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a> <b>(Main Contact)</b>
+</li>
+<li>
+Wesley K. G. Assunção, Johannes Kepler University Linz, Austria, and Pontifical Catholic University of Rio de Janeiro (PUC-Rio), Brazil <a href="https://wesleyklewerton.github.io/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a>  
+</li>
+<li>
+Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France  <a href="https://pages.lip6.fr/tewfik.ziadi/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a>
+</li>
+<li>
+Jabier Martinez, Tecnalia, Spain <a href="https://sites.google.com/site/jabiermartinezwebsite/home" target="_new"><span class="glyphicon glyphicon-new-window"></span></a><br>
+</li>
+</ul>
+<p></p>
+<a href="https://www.etsmtl.ca/" target="_new"><img src="./files/logo1.jpg"></a>&nbsp; &nbsp;
+<a href="https://www.jku.at" target="_new"><img src="./files/logo2.png"></a>&nbsp; &nbsp;
+<a href="http://www.puc-rio.br/english/" target="_new"><img src="./files/logo3.jpg"></a>&nbsp; &nbsp;
+<a href="http://www.lip6.fr/" target="_new"><img src="./files/logo4.jpg"></a>&nbsp; &nbsp;
+<a href="https://www.tecnalia.com/" target="_new"><img src="./files/logo5.png"></a>
+<br/>
+<h3>Steering Committee</h3>
+<ul>
+<li>
+Roberto E. Lopez-Herrejon, Ecole de technologie superieuré, Montreal, Canada <a href="https://www.etsmtl.ca/recherche/professeurs-chercheurs/rlopez/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a>
+</li>
+<li>
+Mathieu Acher, Irisa, Inria and University of Rennes 1, Rennes, France <a href="https://www.mathieuacher.com/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a>
+</li>
+<li>
+Tewfik Ziadi, Sorbonne University, UPMC Univ Paris 06, CNRS, Paris, France  <a href="https://pages.lip6.fr/tewfik.ziadi/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a>
+</li>
+<li>
+Jabier Martinez, Tecnalia, Spain <a href="https://sites.google.com/site/jabiermartinezwebsite/home" target="_new"><span class="glyphicon glyphicon-new-window"></span></a><br>
+</li>
+</ul>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+<div id="location" class="container-fluid bg-grey">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+<h2>Location</h2>
+Check SPLC 2022 registration <a href="https://2022.splc.net/" target="_new"><span class="glyphicon glyphicon-new-window"></span></a><br/>
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+
+<div id="program" class="container-fluid">
+  <div class="row">
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+	    
+<h2>Workshop program</h2>
+<br/>
+<h3>To be defined</h3>
+
+    </div>
+	<div class="col-sm-2"></div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+<a href="../index.html" target="_new">Previous editions</a>
+<br/>
+REVE workshop 2022
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#mainPage']").on('click', function(event) {
+
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 900, function(){
+   
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
